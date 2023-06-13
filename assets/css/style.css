@@ -44,7 +44,8 @@ a, a:hover{
 }
 
 ol, ul{
-    
+    text-decoration: none;
+    list-style: none;
 }
 h1, h2, h3, h4, h5, h6, button, span{
     font-family: var(--primary-font);
@@ -64,6 +65,50 @@ body{
     color: var(--common-white);
     padding: 13px 34px;
     line-height: 28px;
+    border: none;
+    color: var(--common-white);
 }
 
 /***** End Common CSS *****/
+
+/***** banner section *****/
+
+#banner{
+    padding: 0 80px;
+}
+
+#banner .banner_slider .banner_slider_dots {
+    display: flex;
+    position: absolute;
+    bottom: 240px;
+    left: 218px;
+}
+
+#banner .banner_slider .banner_slider_dots li{
+    line-height: 0px;
+    margin-right: 5px;
+}
+
+#banner .banner_slider .banner_slider_dots li button {
+    font-size: 0px;
+    border: none;
+    width: 10px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: var(--common-white);
+    transition: .5s;
+}
+
+#banner .banner_slider .banner_slider_dots li.slick-active button {
+width: 26px;
+background-color: var(--primary-color-1);
+}
+
+
+
+#banner .banner_slider_item{
+    height: 800px !important;
+    width: auto;
+    background-size: cover !important;
+}
+/***** End banner section *****/
