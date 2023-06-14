@@ -80,8 +80,8 @@ body{
 #banner .banner_slider .banner_slider_dots {
     display: flex;
     position: absolute;
-    bottom: 240px;
-    left: 218px;
+    top: 636px;
+    left: 230px;
 }
 
 #banner .banner_slider .banner_slider_dots li{
@@ -104,11 +104,50 @@ width: 26px;
 background-color: var(--primary-color-1);
 }
 
-
-
 #banner .banner_slider_item{
     height: 800px !important;
     width: auto;
     background-size: cover !important;
 }
+
+
+#banner .banner_slider_title h4{
+    color: var(--common-white);
+    font-size: 18px;
+    font-weight: 600;
+    transform: translateY(-100px);
+    transition: .7s;
+}
+#banner .banner_slider_item.slick-active h4{
+    transform: translateY(0px);
+}
+
+
+
+#banner .banner_slider_title h1{
+    color: var(--common-white);
+    font-size: 64px;
+    font-weight: 700;
+    margin: 30px 0 0 0;
+    transform: scaleY(0);
+    transition: .7s;
+}
+#banner .banner_slider_item.slick-active h1{
+    transform: scaleY(1);
+    transform-origin: bottom;
+}
+
+#banner .banner_slider_title p{
+    color: var(--common-white);
+    font-size: 16px;
+    font-weight: 400;
+    width: 417px;
+    margin: 28px 0 0 0;
+
+}
+#banner .banner_slider_title button{
+    margin: 39px 0 0 0;
+}
+
+
 /***** End banner section *****/
