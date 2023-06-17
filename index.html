@@ -37,45 +37,50 @@ Start Date : 12.03.2023
     <!-- Navigation section start -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a href="index.html">
-                <img src="./assets/images/asset 0.svg" alt="" class="img-fluid">
-            </a>
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#main_menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="row">
+                <div class="col-lg-3">
+                    <a href="index.html">
+                        <img src="./assets/images/asset 0.svg" alt="" class="img-fluid">
+                    </a>
+                </div>
 
-            <div class="collapse navbar-collapse" id="main_menu">
-                <ul class="navbar-nav mx-auto">
-                    <li>
-                        <a href="#" class="nav-link">Home</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link">Shop</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link">About</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link">Feature</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link">Blogs</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav_Action_Icon">
-                <ul class="d-flex">
-                    <li class="p-2"><i class="fa-solid fa-magnifying-glass"></i></li>
-                    <li class="p-2"><i class="fa-solid fa-user-tie"></i></li>
-                    <li class="p-2"><i class="fa-regular fa-heart"></i></li>
-                    <li class="p-2"><i class="fa-solid fa-bag-shopping"></i></li>
-                </ul>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#main_menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse col-lg-6" id="main_menu">
+                    <ul class="navbar-nav">
+                        <li>
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Shop</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Feature</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Blogs</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_Action_Icon col-lg-3">
+                    <ul class="d-flex">
+                        <li class="p-2"><i class="fa-solid fa-magnifying-glass"></i></li>
+                        <li class="p-2"><i class="fa-solid fa-user-tie"></i></li>
+                        <li class="p-2"><i class="fa-regular fa-heart"></i></li>
+                        <li class="p-2"><i class="fa-solid fa-bag-shopping"></i></li>
+                        <span class="shopping_bag_badge">3</span>
+                    </ul>
+                </div>
             </div>
     </nav>
-    </div>
     <!-- Navigation section end -->
 
 
@@ -124,25 +129,41 @@ Start Date : 12.03.2023
     <!-- banner section end -->
 
     <!-- Feature section start -->
-          <section id="feature_catagory">
-            <div class="container pt-lg-5">
-                <div class="row">
-                    <div class="col-lg-5 d-flex flex-column justify-content-between">
-                        <div>
-                            <img class="img-fluid" src="./assets/images/asset 21.webp" alt="">
-                        </div>
-                        <div>
-                            <img class="img-fluid" src="./assets/images/asset 22.webp" alt="">
+    <section id="feature_catagory">
+        <div class="container pt-lg-5">
+            <div class="row">
+                <div class="col-lg-5 d-flex flex-column justify-content-between">
+                    <div class="img_1">
+                        <img class="img-fluid" src="./assets/images/asset 21.webp" alt="">
+                        <div class="overlay_1">
+                            <h3>Beauty Cream</h3>
+                            <a href="">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-7">
-                        <img class="img-fluid" src="./assets/images/asset 23.webp" alt="">
+
+                    <div class="img_1">
+                        <img class="img-fluid" src="./assets/images/asset 22.webp" alt="">
+                        <div class="overlay_1">
+                            <h3>Natural Cream</h3>
+                            <a href="">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
                     </div>
+
 
                 </div>
-            </div>
 
-          </section>
+                <div class="col-lg-7 img_2">
+                    <img class="img-fluid" src="./assets/images/asset 23.webp" alt="">
+                    <div class="overlay_2">
+                        <h3>Natural Cream</h3>
+                        <a href="">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
     <!-- Feature section end -->
 
     <!-- New Arrivals Products section start -->
@@ -154,24 +175,38 @@ Start Date : 12.03.2023
             <div class="slider">
                 <div class="product_card card col-lg-3 text-center">
                     <div class="products_thumbnil">
-                        <img class="img-fluid" src="./assets/images/asset 38.webp" alt="">
-                        <img class="img-fluid" src="./assets/images/asset 39.webp" alt="">
+                        <img class="img-fluid" src="./assets/images/asset 24.webp" alt="">
+                        <img class="img-fluid" src="./assets/images/asset 25.webp" alt="">
                     </div>
+
                     <div class="product_info card-body">
                         <p>$75.65</p>
-                        <h6>Manicure Gel nails, makeup</h6>                       
+                        <h6>Manicure Gel nails, makeup</h6>
+                        <div class="products_ratting">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
                     </div>
-                    <div class="products_ratting">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
+
                     <div class="tag">
                         <p>New</p>
                     </div>
-                    
+
+                    <div class="hover_icon">
+                        <ul>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="product_card card col-lg-3 text-center">
@@ -179,19 +214,34 @@ Start Date : 12.03.2023
                         <img class="img-fluid" src="./assets/images/asset 26.webp" alt="">
                         <img class="img-fluid" src="./assets/images/asset 27.webp" alt="">
                     </div>
+
                     <div class="product_info card-body">
                         <p>$75.65</p>
-                        <h6>Manicure Gel nails, makeup</h6>                       
+                        <h6>Manicure Gel nails, makeup</h6>
+                        <div class="products_ratting">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
                     </div>
-                    <div class="products_ratting">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
+
                     <div class="tag">
                         <p>New</p>
+                    </div>
+
+                    <div class="hover_icon">
+                        <ul>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                        </ul>
                     </div>
                 </div>
 
@@ -200,19 +250,34 @@ Start Date : 12.03.2023
                         <img class="img-fluid" src="./assets/images/asset 28.webp" alt="">
                         <img class="img-fluid" src="./assets/images/asset 29.webp" alt="">
                     </div>
+
                     <div class="product_info card-body">
                         <p>$75.65</p>
-                        <h6>Manicure Gel nails, makeup</h6>                       
+                        <h6>Manicure Gel nails, makeup</h6>
+                        <div class="products_ratting">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
                     </div>
-                    <div class="products_ratting">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
+
                     <div class="tag">
                         <p>New</p>
+                    </div>
+
+                    <div class="hover_icon">
+                        <ul>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                        </ul>
                     </div>
                 </div>
 
@@ -221,40 +286,34 @@ Start Date : 12.03.2023
                         <img class="img-fluid" src="./assets/images/asset 30.webp" alt="">
                         <img class="img-fluid" src="./assets/images/asset 31.webp" alt="">
                     </div>
-                    <div class="product_info card-body">
-                        <p>$75.65</p>
-                        <h6>Manicure Gel nails, makeup</h6>                       
-                    </div>
-                    <div class="products_ratting">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="tag">
-                        <p>New</p>
-                    </div>
-                </div>
 
-                <div class="product_card card col-lg-3 text-center">
-                    <div class="products_thumbnil">
-                        <img class="img-fluid" src="./assets/images/asset 32.webp" alt="">
-                        <img class="img-fluid" src="./assets/images/asset 33.webp" alt="">
-                    </div>
                     <div class="product_info card-body">
                         <p>$75.65</p>
-                        <h6>Manicure Gel nails, makeup</h6>                       
+                        <h6>Manicure Gel nails, makeup</h6>
+                        <div class="products_ratting">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
                     </div>
-                    <div class="products_ratting">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
+
                     <div class="tag">
                         <p>New</p>
+                    </div>
+
+                    <div class="hover_icon">
+                        <ul>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                        </ul>
                     </div>
                 </div>
 
@@ -263,19 +322,34 @@ Start Date : 12.03.2023
                         <img class="img-fluid" src="./assets/images/asset 34.webp" alt="">
                         <img class="img-fluid" src="./assets/images/asset 35.webp" alt="">
                     </div>
+
                     <div class="product_info card-body">
                         <p>$75.65</p>
-                        <h6>Manicure Gel nails, makeup</h6>                       
+                        <h6>Manicure Gel nails, makeup</h6>
+                        <div class="products_ratting">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
                     </div>
-                    <div class="products_ratting">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
+
                     <div class="tag">
                         <p>New</p>
+                    </div>
+
+                    <div class="hover_icon">
+                        <ul>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                        </ul>
                     </div>
                 </div>
 
@@ -284,48 +358,622 @@ Start Date : 12.03.2023
                         <img class="img-fluid" src="./assets/images/asset 36.webp" alt="">
                         <img class="img-fluid" src="./assets/images/asset 37.webp" alt="">
                     </div>
+
                     <div class="product_info card-body">
                         <p>$75.65</p>
-                        <h6>Manicure Gel nails, makeup</h6>                       
+                        <h6>Manicure Gel nails, makeup</h6>
+                        <div class="products_ratting">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
                     </div>
-                    <div class="products_ratting">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
+
                     <div class="tag">
                         <p>New</p>
+                    </div>
+
+                    <div class="hover_icon">
+                        <ul>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="product_card card col-lg-3 text-center">
+                    <div class="products_thumbnil">
+                        <img class="img-fluid" src="./assets/images/asset 38.webp" alt="">
+                        <img class="img-fluid" src="./assets/images/asset 39.webp" alt="">
+                    </div>
+
+                    <div class="product_info card-body">
+                        <p>$75.65</p>
+                        <h6>Manicure Gel nails, makeup</h6>
+                        <div class="products_ratting">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+
+                    <div class="tag">
+                        <p>New</p>
+                    </div>
+
+                    <div class="hover_icon">
+                        <ul>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                            <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                    data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </section>       
+        </div>
+    </section>
     <!-- New Arrivals Products section end -->
 
     <!-- banner_1 section start -->
-          <section id="banner_1">
-            <div class="banner_1_img mx-auto" style="background-image: url('./assets/images/asset 56.webp')">
-                <div class="container h-100">
-                    <div class="row h-100">
-                        <div class="banner_1_title col-lg-4">
-                            <h3>Get Up To 35% Off all Best Spa Cosmetics Cream</h3>
-                            <p>Holisticly maximize interoperable action items for effective e-business. Globally impact enterprise-wide niche markets through dynamic.</p>
-                            <button class="btnStyle2">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
-                        </div> 
-                    </div>
-                </div>      
+    <section id="banner_1">
+        <div class="banner_1_img mx-auto" style="background-image: url('./assets/images/asset 56.webp')">
+            <div class="banner_1_overlay">
+
             </div>
-          </section>
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="banner_1_title col-lg-4">
+                        <h3>Get Up To 35% Off all Best Spa Cosmetics Cream</h3>
+                        <p>Holisticly maximize interoperable action items for effective e-business. Globally impact
+                            enterprise-wide niche markets through dynamic.</p>
+                        <button class="btnStyle2">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
     <!-- banner_1 section end -->
 
     <!-- best seller products section start -->
-         <section id="best_seller_products">
-            <div class="container heading">
-                <h1>Best Seller Products</h1>
+    <section id="best_seller_products">
+        <div class="heading container">
+            <h1>Best Seller Products</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="best_seller_products_slider container">
+                    <div class="product_card card col-lg-3 text-center">
+                        <div class="products_thumbnil">
+                            <img class="img-fluid" src="./assets/images/asset 24.webp" alt="">
+                            <img class="img-fluid" src="./assets/images/asset 25.webp" alt="">
+                        </div>
+
+                        <div class="product_info card-body">
+                            <p>$75.65</p>
+                            <h6>Manicure Gel nails, makeup</h6>
+                            <div class="products_ratting">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="tag">
+                            <p>New</p>
+                        </div>
+
+                        <div class="hover_icon">
+                            <ul>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="product_card card col-lg-3 text-center">
+                        <div class="products_thumbnil">
+                            <img class="img-fluid" src="./assets/images/asset 26.webp" alt="">
+                            <img class="img-fluid" src="./assets/images/asset 27.webp" alt="">
+                        </div>
+
+                        <div class="product_info card-body">
+                            <p>$75.65</p>
+                            <h6>Manicure Gel nails, makeup</h6>
+                            <div class="products_ratting">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="tag">
+                            <p>New</p>
+                        </div>
+
+                        <div class="hover_icon">
+                            <ul>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="product_card card col-lg-3 text-center">
+                        <div class="products_thumbnil">
+                            <img class="img-fluid" src="./assets/images/asset 28.webp" alt="">
+                            <img class="img-fluid" src="./assets/images/asset 29.webp" alt="">
+                        </div>
+
+                        <div class="product_info card-body">
+                            <p>$75.65</p>
+                            <h6>Manicure Gel nails, makeup</h6>
+                            <div class="products_ratting">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="tag">
+                            <p>New</p>
+                        </div>
+
+                        <div class="hover_icon">
+                            <ul>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="product_card card col-lg-3 text-center">
+                        <div class="products_thumbnil">
+                            <img class="img-fluid" src="./assets/images/asset 30.webp" alt="">
+                            <img class="img-fluid" src="./assets/images/asset 31.webp" alt="">
+                        </div>
+
+                        <div class="product_info card-body">
+                            <p>$75.65</p>
+                            <h6>Manicure Gel nails, makeup</h6>
+                            <div class="products_ratting">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="tag">
+                            <p>New</p>
+                        </div>
+
+                        <div class="hover_icon">
+                            <ul>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="product_card card col-lg-3 text-center">
+                        <div class="products_thumbnil">
+                            <img class="img-fluid" src="./assets/images/asset 34.webp" alt="">
+                            <img class="img-fluid" src="./assets/images/asset 35.webp" alt="">
+                        </div>
+
+                        <div class="product_info card-body">
+                            <p>$75.65</p>
+                            <h6>Manicure Gel nails, makeup</h6>
+                            <div class="products_ratting">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="tag">
+                            <p>New</p>
+                        </div>
+
+                        <div class="hover_icon">
+                            <ul>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="product_card card col-lg-3 text-center">
+                        <div class="products_thumbnil">
+                            <img class="img-fluid" src="./assets/images/asset 36.webp" alt="">
+                            <img class="img-fluid" src="./assets/images/asset 37.webp" alt="">
+                        </div>
+
+                        <div class="product_info card-body">
+                            <p>$75.65</p>
+                            <h6>Manicure Gel nails, makeup</h6>
+                            <div class="products_ratting">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="tag">
+                            <p>New</p>
+                        </div>
+
+                        <div class="hover_icon">
+                            <ul>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="product_card card col-lg-3 text-center">
+                        <div class="products_thumbnil">
+                            <img class="img-fluid" src="./assets/images/asset 38.webp" alt="">
+                            <img class="img-fluid" src="./assets/images/asset 39.webp" alt="">
+                        </div>
+
+                        <div class="product_info card-body">
+                            <p>$75.65</p>
+                            <h6>Manicure Gel nails, makeup</h6>
+                            <div class="products_ratting">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="tag">
+                            <p>New</p>
+                        </div>
+
+                        <div class="hover_icon">
+                            <ul>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-         </section>
+            <div class="row">
+                <div class="best_seller_products_slider container">
+                    <div class="product_card card col-lg-3 text-center">
+                        <div class="products_thumbnil">
+                            <img class="img-fluid" src="./assets/images/asset 24.webp" alt="">
+                            <img class="img-fluid" src="./assets/images/asset 25.webp" alt="">
+                        </div>
+
+                        <div class="product_info card-body">
+                            <p>$75.65</p>
+                            <h6>Manicure Gel nails, makeup</h6>
+                            <div class="products_ratting">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="tag">
+                            <p>New</p>
+                        </div>
+
+                        <div class="hover_icon">
+                            <ul>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="product_card card col-lg-3 text-center">
+                        <div class="products_thumbnil">
+                            <img class="img-fluid" src="./assets/images/asset 26.webp" alt="">
+                            <img class="img-fluid" src="./assets/images/asset 27.webp" alt="">
+                        </div>
+
+                        <div class="product_info card-body">
+                            <p>$75.65</p>
+                            <h6>Manicure Gel nails, makeup</h6>
+                            <div class="products_ratting">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="tag">
+                            <p>New</p>
+                        </div>
+
+                        <div class="hover_icon">
+                            <ul>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="product_card card col-lg-3 text-center">
+                        <div class="products_thumbnil">
+                            <img class="img-fluid" src="./assets/images/asset 28.webp" alt="">
+                            <img class="img-fluid" src="./assets/images/asset 29.webp" alt="">
+                        </div>
+
+                        <div class="product_info card-body">
+                            <p>$75.65</p>
+                            <h6>Manicure Gel nails, makeup</h6>
+                            <div class="products_ratting">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="tag">
+                            <p>New</p>
+                        </div>
+
+                        <div class="hover_icon">
+                            <ul>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="product_card card col-lg-3 text-center">
+                        <div class="products_thumbnil">
+                            <img class="img-fluid" src="./assets/images/asset 30.webp" alt="">
+                            <img class="img-fluid" src="./assets/images/asset 31.webp" alt="">
+                        </div>
+
+                        <div class="product_info card-body">
+                            <p>$75.65</p>
+                            <h6>Manicure Gel nails, makeup</h6>
+                            <div class="products_ratting">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="tag">
+                            <p>New</p>
+                        </div>
+
+                        <div class="hover_icon">
+                            <ul>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="product_card card col-lg-3 text-center">
+                        <div class="products_thumbnil">
+                            <img class="img-fluid" src="./assets/images/asset 34.webp" alt="">
+                            <img class="img-fluid" src="./assets/images/asset 35.webp" alt="">
+                        </div>
+
+                        <div class="product_info card-body">
+                            <p>$75.65</p>
+                            <h6>Manicure Gel nails, makeup</h6>
+                            <div class="products_ratting">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="tag">
+                            <p>New</p>
+                        </div>
+
+                        <div class="hover_icon">
+                            <ul>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="product_card card col-lg-3 text-center">
+                        <div class="products_thumbnil">
+                            <img class="img-fluid" src="./assets/images/asset 36.webp" alt="">
+                            <img class="img-fluid" src="./assets/images/asset 37.webp" alt="">
+                        </div>
+
+                        <div class="product_info card-body">
+                            <p>$75.65</p>
+                            <h6>Manicure Gel nails, makeup</h6>
+                            <div class="products_ratting">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="tag">
+                            <p>New</p>
+                        </div>
+
+                        <div class="hover_icon">
+                            <ul>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="product_card card col-lg-3 text-center">
+                        <div class="products_thumbnil">
+                            <img class="img-fluid" src="./assets/images/asset 38.webp" alt="">
+                            <img class="img-fluid" src="./assets/images/asset 39.webp" alt="">
+                        </div>
+
+                        <div class="product_info card-body">
+                            <p>$75.65</p>
+                            <h6>Manicure Gel nails, makeup</h6>
+                            <div class="products_ratting">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                        <div class="tag">
+                            <p>New</p>
+                        </div>
+
+                        <div class="hover_icon">
+                            <ul>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Add to Cart"><i class="fa-solid fa-cart-plus"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Wish List"><i class="fa-solid fa-heart"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Quick View"><i class="fa-solid fa-eye"></i></a></li>
+                                <li><a href="" class="d-block" data-bs-toggle="tooltip" data-bs-placement="left"
+                                        data-bs-title="Compare"><i class="fa-solid fa-signal"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class=" row align-items-center col-lg-2">
+                <button class="btnStyle1">See All Items <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
     <!-- best seller products section end -->
 
 

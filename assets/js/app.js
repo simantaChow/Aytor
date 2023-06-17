@@ -18,7 +18,17 @@ $(function () {
         autoplay: true,
         slidesToShow: 4,
     })  
+    $('.best_seller_products_slider').slick({
+        arrows: false,
+        slidesToScroll: 1,
+        autoplay: true,
+        slidesToShow: 4,
+    })  
 
 
 });
+
+
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
