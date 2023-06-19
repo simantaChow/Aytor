@@ -23,9 +23,20 @@ $(function () {
         slidesToScroll: 1,
         autoplay: true,
         slidesToShow: 4,
-    })  
+    });
 
-
+    //countdown
+    $('.clock').countdown('2023/06/30', function(event) {
+        var $this = $(this).html(event.strftime(''        
+          + `<div> <span class="d-block"> %d </span><span class="d-block"> Days </span></div>`
+          + `<span class="clone">:</span>`
+          + `<div> <span class="d-block"> %H </span><span class="d-block"> Hours </span></div>`
+          + `<span class="clone">:</span>`
+          + `<div> <span class="d-block"> %M </span><span class="d-block"> Minutes </span></div>`
+          + `<span class="clone">:</span>`
+          + `<div> <span class="d-block"> %S </span> <span class="d-block"> Seconds </span>
+      </div>`));
+      });
 });
 
 

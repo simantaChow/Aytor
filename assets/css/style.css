@@ -58,6 +58,7 @@ h1, h2, h3, h4, h5, h6, button, span{
 }
 body{
     font-family: var(--primary-font);
+    background-color: var(--bg-color);
 }
 
 .text-justify{
@@ -66,6 +67,8 @@ body{
 
 
 .btnStyle1{
+    height: 56px;
+    width: 180px;
     background-color: var(--primary-color-1);
     font-size: 16px;
     font-weight: 600;
@@ -77,6 +80,8 @@ body{
 }
 
 .btnStyle2{
+    height: 56px;
+    width: 180px;
     background-color: transparent;
     font-size: 16px;
     font-weight: 600;
@@ -344,7 +349,7 @@ background-color: var(--primary-color-1);
     overflow: hidden;
     height: 424px;
 }
- #new_arrivals_products .product_card .products_thumbnil{
+ #new_arrivals_products .product_card .products_thumbnil {
 
 }
 
@@ -467,20 +472,20 @@ background-color: var(--primary-color-1);
 #banner_1 .banner_1_overlay{
     background-color: var(--common-white);
     inset: 0;
-    opacity: .2;
-    transform: rotate(45deg) scale(0);
-    transition: 3s;
+    position: absolute;
+    transform: rotate(45deg);
+
 }
 
-#banner_1 .banner_1_img:hover
+/* #banner_1 .banner_1_img:hover
 .banner_1_overlay{
     position: absolute;
     pointer-events: none;
     background-color: var(--common-white);
-    inset: 0;
     opacity: 0;
-    transform: rotate(45deg) scale(3);   
-}
+    transform: rotate(45deg) scale(3);
+    transform-origin: center;
+} */
 
 
 
@@ -609,4 +614,64 @@ background-color: var(--primary-color-1);
     color: var(--common-white);
  }
 
+ #best_seller_products .btnStyle1 {
+    width: 200px;
+    margin: 40px 0 0 0;
+ }
+
 /***** End  best seller products *****/
+
+/***** Deals Of The Days *****/
+
+#Deals_Of_The_Days .counter{
+    position: relative;
+}
+
+#Deals_Of_The_Days .heading h1{
+    margin: 104px 0 0 0 ;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: center;
+}
+
+#Deals_Of_The_Days .clock {
+    width: 424px;
+    height: 70;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(21, 26, 50, 0.1);
+    margin: 48px 0 0 0;
+    background-color: var(--common-white);
+    position: absolute;
+    top: 151px;
+    left: 455px;
+    z-index: 9999;
+}
+
+#Deals_Of_The_Days .clock div span:first-child{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 12px 0 0 0 ;
+}
+
+#Deals_Of_The_Days .clock div span:last-child{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#Deals_Of_The_Days .clock .clone {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--primary-color-2);
+}
+
+#Deals_Of_The_Days .offer_card{
+    width: 100%;
+    height: 646px ;
+    background-color: var(--common-white);
+    margin: 81px 0 0 0 ;
+}
+
+/***** End Deals Of The Days *****/
