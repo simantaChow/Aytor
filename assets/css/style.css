@@ -471,21 +471,22 @@ background-color: var(--primary-color-1);
 
 #banner_1 .banner_1_overlay{
     background-color: var(--common-white);
-    inset: 0;
+    width: 1920px;
+    height: 20px;
     position: absolute;
     transform: rotate(45deg);
-
+    opacity: 0;
+    transition: 3s;
 }
 
-/* #banner_1 .banner_1_img:hover
+#banner_1 .banner_1_img:hover
 .banner_1_overlay{
-    position: absolute;
+    height: 1920px;
     pointer-events: none;
-    background-color: var(--common-white);
-    opacity: 0;
+    opacity: 0.2;
     transform: rotate(45deg) scale(3);
     transform-origin: center;
-} */
+}
 
 
 
