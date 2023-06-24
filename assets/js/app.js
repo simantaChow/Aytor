@@ -20,8 +20,7 @@ $(function () {
     })  
     $('.best_seller_products_slider').slick({
         arrows: false,
-        slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         slidesToShow: 4,
     });
 
