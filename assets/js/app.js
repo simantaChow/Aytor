@@ -21,12 +21,13 @@ $(function () {
 
     $('.offer_card_slide').slick({
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         slidesToShow: 2,
         dots:true,
         arrows:false,
         dotsClass:'offer_card_slider_dots',
         infinite: true,
+        autoplaySpeed:2000,
     })
     
 

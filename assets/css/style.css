@@ -99,6 +99,20 @@ body{
     background-color: var(--primary-color-1);
 }
 
+.btnStyle3{
+    height: 56px;
+    width: 180px;
+    background-color: var(--dark-bg-color);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--common-white);
+    padding: 13px 34px;
+    line-height: 28px;
+    border: none;
+    color: var(--common-white);
+}
+
+
 /***** End Common CSS *****/
 
 /***** nav section *****/
@@ -676,6 +690,7 @@ background-color: var(--primary-color-1);
     background-color: var(--common-white);
     margin: 81px 0 0 0 ;
     padding: 0 40px;
+    box-shadow: 0 0 .8px rgba(21, 26, 50, 8);
 }
 
 
@@ -685,17 +700,18 @@ background-color: var(--primary-color-1);
     margin: 75px 0 0 35px;
     overflow: hidden;
     position: relative;
+    padding: 0 0 0 40px;
 }
 
-#Deals_Of_The_Days .offer_card .offer_card_slide .offer_card_1:before{   
+#Deals_Of_The_Days .offer_card .offer_card_slide .offer_card_1::before,
+#Deals_Of_The_Days .offer_card .offer_card_slide .offer_card_1::after{   
     content: '';
     position: absolute;
-    pointer-events: none;
     opacity: 1;
     z-index: 3;
+    pointer-events: none;
 }
-
-#Deals_Of_The_Days .offer_card .offer_card_slide .offer_card_1:hover:before{   
+#Deals_Of_The_Days .offer_card .offer_card_slide .offer_card_1::before{
     top: 0;
     right: 51%;
     bottom: 0;
@@ -703,16 +719,36 @@ background-color: var(--primary-color-1);
     background: rgba(255,255,255,0.2);
 }
 
+#Deals_Of_The_Days .offer_card 
+.offer_card_slide .offer_card_1::after{
+    top: 50%;
+    right: 0;
+    bottom: 50%;
+    left: 0;
+    background: rgba(255,255,255,0.3);
+}
 
+#Deals_Of_The_Days .offer_card .offer_card_slide .offer_card_1:hover:before{
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 900ms linear;
+}
 
-
-
+#Deals_Of_The_Days .offer_card 
+.offer_card_slide .offer_card_1:hover:after{
+    top: 0;
+    bottom: 0;
+    background: rgba(255,255,255,0.3);
+    transition: all 900ms linear;
+    opacity: 0;
+}
 
 #Deals_Of_The_Days .offer_card_content h5{
     font-size: 18px;
     font-weight: 600;
     line-height: 28px;
-    margin: 41px 0 0 41px;
+    margin: 41px 0 0 0;
 }
 
 #Deals_Of_The_Days .offer_card_content h2{
@@ -720,7 +756,7 @@ background-color: var(--primary-color-1);
     font-size: 36px;
     font-weight: 700;
     line-height: 46px;
-    margin: 24px 0 0 41px;
+    margin: 24px 0 0 0;
 }
 
 #Deals_Of_The_Days .offer_card_content p{
@@ -728,7 +764,7 @@ background-color: var(--primary-color-1);
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    margin: 37px 0 0 41px;
+    margin: 37px 0 0 0;
     width: 350px;
     height: 84px;
     color: var(--paragraph-color);
@@ -739,6 +775,7 @@ background-color: var(--primary-color-1);
     font-weight: 600;
     line-height: 28px;
     margin: 32px 0 0 0;
+    color: var(--dark-bg-color);
 }
 
 #Deals_Of_The_Days .offer_card_content del{
