@@ -426,7 +426,6 @@ background-color: var(--primary-color-1);
     
  }
 
- 
  #new_arrivals_products .hover_icon ul li a i{
     padding: 10px 0 0 0 ;
     color: var(--dark-bg-color);
@@ -434,8 +433,6 @@ background-color: var(--primary-color-1);
  #new_arrivals_products .hover_icon ul li:hover a i{
     color: var(--common-white);
  }
-
-
 
 /***** End new arrivals products *****/
 
@@ -450,6 +447,29 @@ background-color: var(--primary-color-1);
     position: relative;
     overflow: hidden;
 }
+#banner_1 .banner_1_img::before{
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    opacity: 1;
+    z-index: 3;
+    top: 0;
+    right: 51%;
+    bottom: 0;
+    left: 50%;
+    background: rgba(255,255,255,0.2);
+    transform: skew(45deg);
+}
+
+#banner_1 .banner_1_img:hover:before{
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 900ms linear;
+}
+
+
+
 
 #banner_1 .banner_1_img .banner_1_title h3{
     color: var(--common-white);
@@ -467,23 +487,8 @@ background-color: var(--primary-color-1);
 }
 
 
-#banner_1 .banner_1_overlay{
-    background-color: var(--common-white);
-    inset: 0;
-    position: absolute;
-    transform: rotate(45deg);
 
-}
 
-/* #banner_1 .banner_1_img:hover
-.banner_1_overlay{
-    position: absolute;
-    pointer-events: none;
-    background-color: var(--common-white);
-    opacity: 0;
-    transform: rotate(45deg) scale(3);
-    transform-origin: center;
-} */
 
 
 
@@ -670,15 +675,38 @@ background-color: var(--primary-color-1);
     height: 646px ;
     background-color: var(--common-white);
     margin: 81px 0 0 0 ;
+    padding: 0 40px;
 }
 
 
 #Deals_Of_The_Days .offer_card .offer_card_1{
     height: 485px;
-    width: 608px;
     background-size: cover;
-    margin: 75px 0 0 40px;
+    margin: 75px 0 0 35px;
+    overflow: hidden;
+    position: relative;
 }
+
+#Deals_Of_The_Days .offer_card .offer_card_slide .offer_card_1:before{   
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    opacity: 1;
+    z-index: 3;
+}
+
+#Deals_Of_The_Days .offer_card .offer_card_slide .offer_card_1:hover:before{   
+    top: 0;
+    right: 51%;
+    bottom: 0;
+    left: 50%;
+    background: rgba(255,255,255,0.2);
+}
+
+
+
+
+
 
 #Deals_Of_The_Days .offer_card_content h5{
     font-size: 18px;
@@ -701,23 +729,52 @@ background-color: var(--primary-color-1);
     font-weight: 400;
     line-height: 28px;
     margin: 37px 0 0 41px;
+    width: 350px;
+    height: 84px;
+    color: var(--paragraph-color);
 }
 
-#Deals_Of_The_Days .offer_card_content p:last-child ins{
+#Deals_Of_The_Days .offer_card_content ins{
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
     margin: 32px 0 0 0;
 }
 
-#Deals_Of_The_Days .offer_card_content p:last-child ins del{
+#Deals_Of_The_Days .offer_card_content del{
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
-    margin: 32px 0 0 0;
+    margin: 32px 0 0 18px;
+    color: var(--paragraph-color);
 }
 
+#Deals_Of_The_Days .offer_card_slider_dots {
+    display: flex;
+    top: 607px;
+    left: 605px;
+    position: absolute;
+}
 
+#Deals_Of_The_Days .offer_card_slider_dots li{
+    line-height: 0px;
+    margin-right: 5px;
+}
+
+#Deals_Of_The_Days .offer_card_slider_dots li button {
+    font-size: 0px;
+    border: none;
+    width: 10px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: var(--light-bg-color);
+    transition: .5s;
+}
+
+#Deals_Of_The_Days .offer_card .offer_card_slide .offer_card_slider_dots li.slick-active button {
+    width: 26px;
+    background-color: var(--dark-bg-color);
+    }
 
 
 

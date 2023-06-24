@@ -17,7 +17,19 @@ $(function () {
         slidesToScroll: 1,
         autoplay: true,
         slidesToShow: 4,
-    })  
+    })
+
+    $('.offer_card_slide').slick({
+        slidesToScroll: 1,
+        autoplay: false,
+        slidesToShow: 2,
+        dots:true,
+        arrows:false,
+        dotsClass:'offer_card_slider_dots',
+        infinite: true,
+    })
+    
+
     $('.best_seller_products_slider').slick({
         arrows: false,
         autoplay: false,
