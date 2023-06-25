@@ -813,7 +813,17 @@ background-color: var(--primary-color-1);
     background-color: var(--dark-bg-color);
     }
 
-
-
 /***** End Deals Of The Days *****/
 
+
+/***** Sepcial Section *****/
+#special_offer {
+    background-color: var(--light-bg-color);
+    height: 517px;
+    margin: 123px 0 0 0;
+}
+#special_offer .special_offer_text {
+    padding: 100px 0 ;
+}
+
+/***** End Sepcial Section *****/
