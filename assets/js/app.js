@@ -38,7 +38,7 @@ $(function () {
     });
 
     //countdown
-    $('.clock').countdown('2023/06/30', function(event) {
+    $('.clock').countdown('2023/07/30', function(event) {
         var $this = $(this).html(event.strftime(''        
           + `<div> <span class="d-block"> %d </span><span class="d-block"> Days </span></div>`
           + `<span class="clone">:</span>`
@@ -49,9 +49,24 @@ $(function () {
           + `<div> <span class="d-block"> %S </span> <span class="d-block"> Seconds </span>
       </div>`));
       });
+
+      $('.lts_news_slider').slick({
+        slidesToScroll: 1,
+        autoplay: true,
+        slidesToShow: 4,
+        dots:true,
+        arrows:false,
+        dotsClass:'lts_news_card_slider_dots',
+        infinite: true,
+        autoplaySpeed:2000,
+    })
+
+
 });
 
+new VenoBox({
+    selector:'.video_btn'
+});
 
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-
