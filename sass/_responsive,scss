@@ -1,0 +1,7 @@
+/* Responsive mixin for verius device*/
+
+@mixin sm_device() {
+    @media(576px <= width <=768px) {
+        @content
+    }
+}
