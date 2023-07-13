@@ -11,5 +11,6 @@
         "last 2 versions"
         ],
         "liveSassCompile.settings.showOutputWindowOn": "None",
+        "editor.formatOnSave": true,
         
 }

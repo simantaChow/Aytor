@@ -42,9 +42,22 @@ Start Date : 12.03.2023
                 <img src="./assets/images/asset 0.svg" alt="" class="img-fluid">
             </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+            <button class="nav_btn navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-solid fa-bars"></i></button>
+
+            <div class="offcanvas offcanvas-start row" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="nav_off_can offcanvas-header w-100 text-center">
+                    <a class="logo w-100" href="index.html">
+                        <img src="./assets/images/asset 0.svg" alt="" class="d-inline">
+                    </a>
+                    <button class="off_can_cls_btn align-top" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="offcanvas-body">
+                    
+                </div>
+            </div>
 
             <div class="collapse navbar-collapse" id="main_menu">
                 <ul class="navbar-nav mx-auto">
@@ -117,7 +130,7 @@ Start Date : 12.03.2023
                             <h4>Mega Sale</h4>
                             <h1>Cream for Shine Your Skin</h1>
                             <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
-                            <button class="btnStyle1">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+                            <a class="btnStyle1">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1237,15 +1250,15 @@ Start Date : 12.03.2023
                                 <p>Wed :</p>
                                 <p>Fri :</p>
                                 <p>Sat :</p>
-                                <p>Sun :</p>                               
-                            </div>                            
+                                <p>Sun :</p>
+                            </div>
                             <div class="time">
                                 <p>8AM - 10PM</p>
                                 <p>8AM - 7PM</p>
                                 <p>7AM - 12PM</p>
                                 <p>9AM - 8PM</p>
-                                <p>Closed</p>                                   
-                          </div>
+                                <p>Closed</p>
+                            </div>
                         </div>
                     </div>
 

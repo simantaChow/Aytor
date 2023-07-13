@@ -1,12 +1,45 @@
 /*Nav Section Code*/
 
-nav{
-    .navbar-toggler{
-        background-color: red;
+nav {
+  .nav_btn {
+    width: 50px;
+    height: 50px;
+    line-height: 1;
+    padding: 0;
+    font-size: 24px;
+    border: none;
+    background-color: $primary-color-2;
+    color: $common-white;
+    display: inline-block;
+    border-radius: 0;
+  }
 
-    }
+  .nav_Action_Icon {
+    display: none;
+  }
+  .offcanvas{
+    transition: .8s;
+  }
+  .nav_off_can{
+    background: rgba(28,185,200,0.1);;
+  }
 
-    .nav_Action_Icon{
-        display: none;
+  .off_can_cls_btn{
+    border: none;
+    font-size: 22px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    padding: 0;
+    line-height: 1;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    color: $paragraph-color;
+    background-color: transparent;
+    i{
+      font-size: 20px;
     }
+  }
+
 }
