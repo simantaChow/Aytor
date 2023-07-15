@@ -1,0 +1,10 @@
+#feature_catagory {
+  .img_1 {
+    position: relative;
+    .overlay_1 {
+        position: absolute;
+        inset: 0;
+        background-color: rgba(109, 108, 108, 0.5);
+    }
+  }
+}
